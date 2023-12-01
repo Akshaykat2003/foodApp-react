@@ -213,7 +213,7 @@ section {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(90deg, rgb(0 0 0 / 90%), rgb(68 68 68 / 35%)),
+  background: 
     url(../images/home2-img.jpg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -221,6 +221,7 @@ section {
 
 .home .content {
   max-width: 60rem;
+  margin-bottom: 80px;
 }
 
 .home span {
@@ -229,9 +230,10 @@ section {
 }
 
 .home .content h3 {
-  font-size: 6rem;
+  font-size: 5rem;
   text-transform: uppercase;
   color: #fff;
+  
 }
 
 .home .content p {
@@ -240,6 +242,7 @@ section {
   line-height: 1.8;
   padding: 1rem 0;
   color: #eee;
+
 }
 
 .about .row {
